@@ -85,5 +85,10 @@ namespace kalkulacka15
         {
             Vysledek.Text = "0";
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
